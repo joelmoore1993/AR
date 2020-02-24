@@ -44,7 +44,7 @@ limitations under the License.
 
 
 <body>
-	<!-- 💁 Include both scripts below to support all browsers! -->
+  <!-- 💁 Include both scripts below to support all browsers! -->
 
 <!-- Loads <model-viewer> for modern browsers: -->
 <script type="module"
@@ -56,20 +56,7 @@ limitations under the License.
     src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
 </script>
 <model-viewer src="assets/Ascensor/androidtexture.glb"
-				ios-src="assets/Ascensor/labradorretriever.usdz"
-				ar
-              ar-scale="auto"
-              auto-rotate camera-controls
-              background-color="#70BCD1"
-              environment-image="third_party/hdrihaven/studio_small_07_1k.hdr"
-              shadow-intensity="1"
-              stage-light-intensity="3" environment-intensity="2"
-              alt="Textured Ascensor A"
-              camera-orbit="-20deg 75deg 2m"
-              magic-leap unstable-webxr>
-</model-viewer>
-<model-viewer src="assets/Ascensor/androidtexture.glb"
-        ios-src="assets/Ascensor/labradorretriever.usdz"
+        ios-src="assets/Ascensor/iphonetexture.usdz"
         ar
               auto-rotate camera-controls
               background-color="#70BCD1"
@@ -79,7 +66,17 @@ limitations under the License.
               alt="Textured Ascensor A"
               camera-orbit="-20deg 75deg 2m">
 </model-viewer>
-
+<model-viewer src="assets/Ascensor/androidwhite.glb"
+        ios-src="assets/Ascensor/iphonewhite.usdz"
+        ar
+              auto-rotate camera-controls
+              background-color="#70BCD1"
+              environment-image="third_party/hdrihaven/studio_small_07_1k.hdr"
+              shadow-intensity="1"
+              stage-light-intensity="3" environment-intensity="2"
+              alt="White Ascensor A"
+              camera-orbit="-20deg 75deg 2m">
+</model-viewer>
 </body>
 
 
