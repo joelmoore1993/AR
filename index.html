@@ -22,7 +22,7 @@
 
     <!-- 💁 OPTIONAL: Fullscreen polyfill is required for experimental AR features in Canary -->
     <!--<script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>-->
-    <script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>
+
     <!-- 💁 OPTIONAL: Include prismatic.js for Magic Leap support -->
     <!--<script src="https://unpkg.com/@magicleap/prismatic@0.18.2/prismatic.min.js"></script>-->
 
@@ -32,8 +32,8 @@
 
   <div class="grid-container">
     <model-viewer class="a"
-                  src="assets/Ascensor/androidtexture.glb"
-                  ios-src="assets/Ascensor/iphonetexture.usdz"
+                  src="assets/Astronaut/Astronaut.glb"
+                  ios-src="assets/Astronaut/Astronaut.usdz"
                   ar
                   alt="A 3D model of an astronaut"
                   background-color="#FF6F59"
@@ -42,7 +42,17 @@
                   
                   auto-rotate></model-viewer>
 
- 
+    <model-viewer class="b"
+
+                  src="assets/Astronaut/Astronaut.glb"
+                  ios-src="assets/Ascensor/labradorretriever.usdz"
+                  ar
+                  alt="A 3D model of an astronaut"
+                  background-color="#254441"
+                  shadow-intensity="1"
+                  auto-rotate camera-controls
+                  
+                  auto-rotate></model-viewer>
   
   </div>
 
